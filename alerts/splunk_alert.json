@@ -1,0 +1,10 @@
+{
+  "alert_name": "Multiple Failed Login Attempts",
+  "source_ip": "192.168.1.50",
+  "username": "admin",
+  "host": "WIN10-LAB",
+  "event_count": 8,
+  "severity": "medium",
+  "timestamp": "2025-01-26T10:15:00Z"
+}
+
