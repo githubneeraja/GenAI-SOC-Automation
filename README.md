@@ -24,14 +24,16 @@ Git
 
 Folder Structure
 GenAI-SOC-Automation/
+GenAI-SOC-Automation/
 ├── scripts/
-│   └── genai_alert_triage.py   ← Mock GenAI alert analysis
+│   └── genai_alert_triage.py      # Mock GenAI alert analysis script
 ├── alerts/
-│   └── splunk_alert.json       ← Simulated SIEM alerts
+│   └── splunk_alert.json          # Simulated SIEM alerts
 ├── reports/
-│   └── incident_report.md      ← Generated incident report
-├── README.md                   ← Project documentation
-└── requirements.txt            ← Python dependencies
+│   └── incident_report.md         # Generated incident report
+├── README.md                      # Project documentation
+└── requirements.txt               # Python dependencies
+
 🧩 How It Works
 
 Reads JSON alerts from the alerts/ folder.
